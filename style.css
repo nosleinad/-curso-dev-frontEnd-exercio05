@@ -1,0 +1,119 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: monospace;
+  
+}
+
+header {
+    background-color: #250559;
+    padding: 10px;
+  
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+      
+}
+
+.quadro01 {
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    background: linear-gradient(to left, #250559, #0095DA);
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 40px;
+    position: absolute;
+    animation-name: quadro01;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    
+ 
+     
+}
+@keyframes quadro01 {
+    0% { background-color: #0095DA; top: 100px; right: 30px;
+
+    }
+    50% {
+        background-color: #250559; top: 100px; right: 1200px;
+    }
+    100% {
+        background-color: #0095DA; top: 100px; right: 30px; 
+        
+    }
+}
+
+
+
+.quadro02 {
+    background-color: #2f39c7;
+    width: 100px;
+    height: 100px;
+    float: right;
+    position: relative;
+    margin-right: 30px;
+    margin-bottom: 230px;
+    border-radius: 40px;
+    background: linear-gradient(to top, #250559, #0095DA);
+    animation-name: quadro02;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+
+    
+}
+
+@keyframes quadro02 {
+    0% { background-color: #0095DA; bottom: 50px; top: 30px;
+
+    } 
+    
+    50% {
+        background-color: #250559; bottom: 50; top: 450px;
+   
+    }
+    100% {
+        background-color: #0095DA; bottom: 50px; top: 30px; 
+        
+    }
+}
+
+.quadro03 {
+    width: 100px;
+    height: 100px;
+    background-color: #250559; 
+    transition: all 1s linear;
+    margin-top: 430px;
+    margin-left: 20px;
+    
+    
+      
+
+}
+
+.quadro03:hover {
+    background-color: #0095DA;
+    border-radius: 50%;
+    
+}
+
+
+
+footer {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    background-color: #0095DA;
+ 
+}
+address {
+    margin: 8px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+
+}
